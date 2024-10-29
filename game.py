@@ -46,6 +46,7 @@ def movement(move, field_string, block_list):
             field_return = move_write(field_string, listRep, 0)
         elif field_string.find("x") in [67, 81]:
             current_map.setMap(map2)
+            # Maybe movement() could be called recursively here
             new_string = current_map.getField()
             newRep = list(new_string)
             newRep[field_string.find("x")-10] = "x"
@@ -90,7 +91,8 @@ def move_write(string, listi, number):
         field = "".join(listi)
         print(field)
         return field
-    
+
+
 
 x = False
 while x == False:
