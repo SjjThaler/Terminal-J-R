@@ -1,0 +1,2 @@
+In parent directory of /test run:
+python3 -m unittest discover -s test -v
