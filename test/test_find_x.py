@@ -3,7 +3,7 @@ from unittest.mock import patch
 import game2  # Assuming your code is in a file named game2.py
 
 class TestFindX(unittest.TestCase):
-    
+    # patch fakes the output of the fetch_grid() function
     @patch('game2.fetch_grid')
     def test_find_x_at_start(self, mock_fetch):
         mock_fetch.return_value = [
