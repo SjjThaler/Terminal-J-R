@@ -1,5 +1,6 @@
 import pdb
 import mapbank
+import os
 
 
 class MapGrid:
@@ -30,6 +31,12 @@ map_grid_instance = MapGrid([
 
 
 def display_grid():
+    # Clear the terminal screen based on the OS
+    if os.name == 'nt':  # For Windows
+        os.system('cls')
+    else:  # For macOS/Linux
+        os.system('clear')
+
     grid = map_grid_instance.get_grid()
     for row in grid:
         print("".join(row))
