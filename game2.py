@@ -77,13 +77,13 @@ def checkIndex(row_index, column_index, grid):
         try:
             _ = grid[row_index]
         except IndexError:
-            map_grid_instance.set_grid(mapbank.map_grid2)
+            map_grid_instance.set_grid(mapbank.a_new_map)
             return True
 
         try:
             _ = grid[row_index][column_index]
         except IndexError:
-            map_grid_instance.set_grid(mapbank.map_grid2)
+            map_grid_instance.set_grid(mapbank.a_new_map)
             return True
 
     except Exception as e:

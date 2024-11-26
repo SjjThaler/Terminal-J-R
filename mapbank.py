@@ -1,3 +1,7 @@
+
+import game2
+import random
+
 map_grid2 = [
     ["-", "-", "-", "-", "-", "-", "-", "-", "-", "-","-", "-", "-", "-", "-", "-", "-", "-", "-", "w"],
     ["-", "-", "-", "-", "-", "-", "-", "-", "-", "-","-", "-", "-", "-", "-", "-", "-", "-", "-", "w"],
@@ -49,3 +53,14 @@ map_walled = [
     ["w", "-", "-", "-", "-", "-", "-", "-", "-", "-","-", "-", "-", "-", "-", "-", "-", "-", "-", "w"],
     ["w", "w", "w", "w", "w", "w", "w", "w", "w", "w","w", "w", "w", "w", "w", "w", "w", "w", "w", "w"]
 ]
+
+def randomObject():
+        new_map = map_walled
+        row = random.randint(0, len(new_map) - 1)
+        column = random.randint(0, len(new_map[0]) -1)
+        map_walled[row][column] = "O"
+        return new_map
+
+a_new_map = randomObject()
+
+        
