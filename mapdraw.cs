@@ -19,7 +19,7 @@ class Program
             }
         }
 
-        // Display the bitmap in a custom form
+        // Display the bitmap in a form
         Form form = new Form
         {
             Text = "Bitmap Viewer",
@@ -27,10 +27,13 @@ class Program
             Height = height + 60
         };
 
-        form.Paint += (sender, e) =>
+        PictureBox pictureBox = new PictureBox
         {
-            e.Graphics.DrawImage(bitmap, 0, 0);
+            Image = bitmap,
+            Dock = DockStyle.Fill
         };
+
+        form.Controls.Add(pictureBox);
 
         Application.Run(form); // Show the form
     }

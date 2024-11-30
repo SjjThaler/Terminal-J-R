@@ -1,0 +1,15 @@
+/home/bidiu/development/Terminal-J-R/drawmap/obj/Debug/net9.0/drawmap.GeneratedMSBuildEditorConfig.editorconfig
+/home/bidiu/development/Terminal-J-R/drawmap/obj/Debug/net9.0/drawmap.AssemblyInfoInputs.cache
+/home/bidiu/development/Terminal-J-R/drawmap/obj/Debug/net9.0/drawmap.AssemblyInfo.cs
+/home/bidiu/development/Terminal-J-R/drawmap/obj/Debug/net9.0/drawmap.csproj.CoreCompileInputs.cache
+/home/bidiu/development/Terminal-J-R/drawmap/obj/Debug/net9.0/drawmap.sourcelink.json
+/home/bidiu/development/Terminal-J-R/drawmap/bin/Debug/net9.0/drawmap
+/home/bidiu/development/Terminal-J-R/drawmap/bin/Debug/net9.0/drawmap.deps.json
+/home/bidiu/development/Terminal-J-R/drawmap/bin/Debug/net9.0/drawmap.runtimeconfig.json
+/home/bidiu/development/Terminal-J-R/drawmap/bin/Debug/net9.0/drawmap.dll
+/home/bidiu/development/Terminal-J-R/drawmap/bin/Debug/net9.0/drawmap.pdb
+/home/bidiu/development/Terminal-J-R/drawmap/obj/Debug/net9.0/drawmap.dll
+/home/bidiu/development/Terminal-J-R/drawmap/obj/Debug/net9.0/refint/drawmap.dll
+/home/bidiu/development/Terminal-J-R/drawmap/obj/Debug/net9.0/drawmap.pdb
+/home/bidiu/development/Terminal-J-R/drawmap/obj/Debug/net9.0/drawmap.genruntimeconfig.cache
+/home/bidiu/development/Terminal-J-R/drawmap/obj/Debug/net9.0/ref/drawmap.dll
