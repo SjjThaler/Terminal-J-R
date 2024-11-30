@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("drawmap")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e66e7f795533678e4bcf0e87ddfcdbe95af67afd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+224062ca344156f7f18d530f51f3b71c646f090a")]
 [assembly: System.Reflection.AssemblyProductAttribute("drawmap")]
 [assembly: System.Reflection.AssemblyTitleAttribute("drawmap")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
