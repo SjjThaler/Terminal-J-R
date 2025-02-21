@@ -11,6 +11,8 @@ Needs to be planned anew. Next steps should be the following:
 3. modelling the whole application on paper or by UML etc.
    - figuring out approach (functional or class based)
    - mapping out each method's functionality and return
+   - which problems could arise with this approach / these methods?
+   - could it be less complicated to do things the other way around?
 4. writing tests for each method before actual programming begins
 
 Only then should the actual programming proceed.
